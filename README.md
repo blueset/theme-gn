@@ -1,4 +1,4 @@
-i# Theme Gn
+# Theme Gn
 
 ![Preview](http://images.1a23.com/di/R116/567382edd2f03.jpg)
 
@@ -45,13 +45,14 @@ Demo：1a23.com
 在发布文章时，可在自定义栏目中填写下载地址。对应名称和值如下：
 
 名称 | 值
--|-
-`link1name`   |第一个下载链接的显示名称
-`link1add`    |第一个链接的地址
-`link2name`   |第二个下载链接的显示名称
-`link2add`    |第二个链接的地址
-`link3name`   |第三个下载链接的显示名称
-`link3add`    |第三个链接的地址
+--- | ---
+`link1name`   | 第一个下载链接的显示名称
+`link1add`    | 第一个链接的地址
+`link2name`   | 第二个下载链接的显示名称
+`link2add`    | 第二个链接的地址
+`link3name`   | 第三个下载链接的显示名称
+`link3add`    | 第三个链接的地址
+
 此规律只支持三个链接。
 
 ## 二次创作并发布
