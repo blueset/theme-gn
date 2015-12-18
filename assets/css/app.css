@@ -1,0 +1,310 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+   font-family: "方正兰亭黑_GBK", "微软雅黑","Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+h1{
+   font-family: "方正兰亭粗黑_GBK","微软雅黑","Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: normal;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+/* ==========================================================================
+   Article Box
+   ========================================================================== */
+article.post, article.post-header{
+   box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   margin-bottom:30px;
+   /*padding: 10px;*/
+}
+.comment-box, section#respond{
+   box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   margin-top:30px;   
+   overflow: hidden;
+}
+section#respond{
+   margin-bottom: 30px;
+}
+.cont-preview{
+   padding: 10px;
+   height:150px;
+   overflow: hidden;
+   background-color: #eee;
+}
+img.wp-post-image{
+   width:100%;
+   height:auto;
+}
+article.post-header footer{
+   padding:10px 20px;
+}
+article.post-header footer h3{
+   margin:0px;
+}
+article.post-header footer .pull-right{
+   text-align: right;
+   padding-top: 5px;
+}
+article.post .entry-content{
+   padding:20px;
+}
+
+/* Comment */
+.comment-content{
+   padding:20px;
+   background-color: #fff;
+}
+.comment-box{background-color: #eee;}
+.comment-meta{
+   padding:10px;
+   background-color: #eee;
+}
+.comment-meta h4{
+   padding-top: 4px;
+}
+.comment-meta .pull-left{
+   padding-right:5px;
+}
+
+.comment-meta .pull-right{
+   text-align: right;
+}
+
+/* Child Comment 
+
+
+li.depth-2 .comment-box .comment-meta{
+   width:30%;
+   padding:0;
+   padding-bottom:10px;
+}
+li.depth-2 .comment-box .comment-meta div.pull-left{
+   padding-left:10px;
+   padding-top:10px;
+   padding-bottom:10px;
+}
+li.depth-2 .comment-box .comment-meta h4{
+   padding-top:10px;
+}
+
+li.depth-2 .comment-box .comment-content{
+   width:70%;
+   float:right;
+   padding-right:0;
+}
+li.depth-2 .comment-box .comment-content *{
+   padding-left:20px;
+}
+li.depth-2 .comment-box .comment-content:after,li.depth-2 .comment-box .comment-meta:after{
+   clear:both;
+}
+*/
+li.child-comment{
+    display: inline-block;
+    width:100%;
+}
+li.child-comment .comment-box .comment-content{
+float: right;
+width: 70%;
+background-color: #fff;}
+li.child-comment .comment-box .comment-meta:after,li.child-comment .comment-box .comment-content:after{
+   clear:both;
+}
+li.child-comment .comment-box{
+   margin-top:0;
+   z-index:10;
+   background-color: #eee;
+   overflow-y:hidden;
+}
+li.child-comment .comment-box .comment-meta .pull-right{
+   display: none;
+}
+section#respond{
+padding: 20px 0;
+}
+ .navbar-fixed-bottom {
+position: fixed;
+}
+.hero-unit#title{
+   padding: 0px 30px 30px 30px;
+   background-size: cover;
+}
+section#respond .span3{
+   text-align: right;
+}
+span.label a {
+   color:#fff;
+}
+.featureimg{
+   overflow:hidden;
+   max-height:200px;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px){
+.featureimg{
+   max-height:200px;
+}
+article.post .entry-content {
+padding: 10px;
+}
+.comment-content {
+padding: 10px;
+}
+article.post-header footer {
+padding: 10px 10px;
+}
+.container {
+padding-right: 5px;
+padding-left: 5px;
+}
+h3 {
+font-size: 22px;
+}
+body {
+padding-right: 0px;
+padding-left: 0px;
+}
+section#respond .span3{
+   text-align: left;
+}
+.container{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+li.child-comment .comment-box .comment-content{
+float: none;
+width: 100%;
+}
+li.child-comment .comment-box .comment-meta .pull-right{
+   display: inherit;
+}
+section#respond{
+padding: 0 20px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+margin-right: 0px;
+margin-left: 0px;
+}
+article footer .pull-right{
+   display: none;
+}
+}
+
+@media (max-width: 979px) and (min-width: 768px){
+   .featureimg{
+   max-height:230px;
+   }
+}
+@media (min-width: 1200px){
+.featureimg{
+   max-height:300px;
+}
+section#respond .span3 {
+margin-left: 30px;
+width: 210px;
+}
+/*Disable Resp. Design Over 1200px width*/
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 940px;}
+.span12{width:940px}
+.span11{width:860px}
+.span10{width:780px}
+.span9{width:700px}
+.span8{width:620px}
+.span7{width:540px}
+.span6{width:460px}
+.span5{width:380px}
+.span4{width:300px}
+.span3{width:220px}
+.span2{width:140px}
+.span1{width:60px}
+input.span12,textarea.span12,.uneditable-input.span12{width:926px}
+input.span11,textarea.span11,.uneditable-input.span11{width:846px}
+input.span10,textarea.span10,.uneditable-input.span10{width:766px}
+input.span9,textarea.span9,.uneditable-input.span9{width:686px}
+input.span8,textarea.span8,.uneditable-input.span8{width:606px}
+input.span7,textarea.span7,.uneditable-input.span7{width:526px}
+input.span6,textarea.span6,.uneditable-input.span6{width:446px}
+input.span5,textarea.span5,.uneditable-input.span5{width:366px}
+input.span4,textarea.span4,.uneditable-input.span4{width:286px}
+input.span3,textarea.span3,.uneditable-input.span3{width:206px}
+input.span2,textarea.span2,.uneditable-input.span2{width:126px}
+input.span1,textarea.span1,.uneditable-input.span1{width:46px}
+[class*="span"] {
+float: left;
+min-height: 1px;
+margin-left: 20px;
+}
+.row {
+margin-left: -20px;
+}
+}
