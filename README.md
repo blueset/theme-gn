@@ -1,6 +1,7 @@
 # Theme Gn
 
 ![Preview](https://raw.githubusercontent.com/blueset/theme-gn/master/screenshot.png)
+![Preview](https://images.1a23.com/upload/images/R116.jpg)
 
 制作：蓝色之风
 
