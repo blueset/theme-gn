@@ -63,7 +63,7 @@ Demo：1a23.com
 付协议文本如下：
 
 ```
-Copyright (c) Ben Word and Scott Walkinshaw
+Copyright (c) Ben Word, Scott Walkinshaw, Eana Hufwe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
